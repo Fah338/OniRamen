@@ -25,21 +25,13 @@ const routes = [
     name: 'User',
     component: () => import('../views/User.vue')
   },
-  {
-    path: '/BookaTable',
-    name: 'BookaTable',
-    component: () => import('../views/BookaTable.vue')
-  },
+  
   {
     path: '/Admin',
     name: 'Admin',
     component: () => import('../views/Admin.vue')
   },
-  {
-    path: '/Bill',
-    name: 'Bill',
-    component: () => import('../views/Bill.vue')
-  },
+  
 ]
 
 const router = new VueRouter({
